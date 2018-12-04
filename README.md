@@ -1,9 +1,9 @@
 # YeahPDFTools
 iOS PDF Read&amp;Cache
 
-####需求：检查本地是否有需要查看的PDF文件，没有即下载缓存到本地(base64转码)，有则直接使用原生QLPreviewController打开，常规缓存方案。
+### 需求：检查本地是否有需要查看的PDF文件，没有即下载缓存到本地(base64转码)，有则直接使用原生QLPreviewController打开，常规缓存方案。
 
-#####YJPDFTools
+##### YJPDFTools
 ```
 /**
  *  IsExist 判断是否本地存在
@@ -63,7 +63,7 @@ iOS PDF Read&amp;Cache
 
 
 ```
-#####PDFReader
+##### PDFReader
 ```
 /**
  *  预览PDF文件
@@ -104,7 +104,7 @@ iOS PDF Read&amp;Cache
 }
 ```
 ---
-###使用：
+### 使用：
 ```
 - (void)loadPDFMethod{
     
@@ -135,3 +135,4 @@ iOS PDF Read&amp;Cache
     }
 }
 ```
+[我的简书](https://www.jianshu.com/p/6550c31a8f44)
